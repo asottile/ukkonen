@@ -1,0 +1,2 @@
+include _ukkonen.h
+include ukkonen_build.py

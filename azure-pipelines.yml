@@ -21,7 +21,7 @@ jobs:
     wheel_tags: true
 - template: job--python-tox.yml@asottile
   parameters:
-    toxenvs: [py36]
+    toxenvs: [py37]
     os: macos
     wheel_tags: true
 - template: job--python-tox.yml@asottile

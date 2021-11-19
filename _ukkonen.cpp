@@ -18,11 +18,11 @@ template <typename T> int64_t edit_distance_k_impl(
     }
 
     // prefix trimming
-    while (a_size >= 0 && *a == *b) {
+    while (a_size > 0 && *a == *b) {
         a++;
         b++;
-        a_size -= 1;
-        b_size -= 1;
+        a_size--;
+        b_size--;
     }
 
 

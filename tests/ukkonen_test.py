@@ -7,3 +7,7 @@ def test_not_bounded():
 
 def test_bounded():
     assert distance('hello', 'world', 2) == 2
+
+
+def test_exact_match():
+    assert distance('hello', 'hello', 2) == 0

@@ -17,7 +17,7 @@ template <typename T> int64_t edit_distance_k_impl(
         b_size--;
     }
 
-    // prefix_trimming
+    // prefix trimming
     while (a_size >= 0 && *a == *b) {
         a++;
         b++;
@@ -25,16 +25,13 @@ template <typename T> int64_t edit_distance_k_impl(
         b_size -= 1;
     }
 
+    
+    k = std::min(b_size, k);
+
     // if the shorter string is gone, return b_size or threshold
     if (a_size == 0) {
-        if (b_size < k) {
-            return b_size;
-        } else {
-            return k;
-        }
+        return k;
     }
-
-    k = std::min(b_size, k);
 
     auto size_d = b_size - a_size;
 

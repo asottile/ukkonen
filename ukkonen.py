@@ -1,6 +1,6 @@
-import _ukkonen_s
+import _ukkonen
 
-_lib = _ukkonen_s.lib
+_lib = _ukkonen.lib
 
 
 def distance(s1: str, s2: str, k: int) -> int:

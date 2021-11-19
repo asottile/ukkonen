@@ -14,7 +14,7 @@ SRC = '''\
 ffibuilder = FFI()
 ffibuilder.cdef(CDEF)
 ffibuilder.set_source(
-    '_ukkonen_s', SRC,
+    '_ukkonen', SRC,
     sources=['_ukkonen.cpp'],
     include_dirs=['.'],
 )

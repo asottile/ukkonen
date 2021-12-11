@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <cstdint>
 #include <vector>
 
 template <typename T> int64_t edit_distance_k_impl(

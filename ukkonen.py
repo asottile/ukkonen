@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import _ukkonen
 
 _lib = _ukkonen.lib

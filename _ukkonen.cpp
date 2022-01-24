@@ -55,10 +55,10 @@ template <typename T> int64_t edit_distance_k_impl(
 
         std::swap(current_row, next_row);
 
-        int start;
-        int previous_cell;
-        int current_cell = -1;
-        int next_cell;
+        int64_t start;
+        int64_t previous_cell;
+        int64_t current_cell = -1;
+        int64_t next_cell;
 
         if (i <= ZERO_K) {
             start = -i + 1;

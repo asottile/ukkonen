@@ -1,5 +1,4 @@
-[![Build Status](https://dev.azure.com/asottile/asottile/_apis/build/status/asottile.ukkonen?branchName=main)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=71&branchName=main)
-[![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/asottile/asottile/71/main.svg)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=71&branchName=main)
+[![build status](https://github.com/asottile/ukkonen/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/ukkonen/actions/workflows/main.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/ukkonen/main.svg)](https://results.pre-commit.ci/latest/github/asottile/ukkonen/main)
 
 ukkonen

@@ -20,4 +20,4 @@ if platform.python_implementation() == 'CPython':
 else:
     cmdclass = {}
 
-setup(cffi_modules=['ukkonen_build.py:ffibuilder'], cmdclass=cmdclass)
+setup(cffi_modules=['ukkonen_build.py:ffibuilder'], cmdclass=cmdclass, package_data={'': ['py.typed']})

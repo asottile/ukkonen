@@ -1,2 +1,3 @@
-include _ukkonen.h
+graft ukkonen
 include ukkonen_build.py
+global-exclude *.py[cod]

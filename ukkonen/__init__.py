@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import ukkonen._ukkonen
+from . import _ukkonen  # type: ignore[attr-defined]
 
 _lib = _ukkonen.lib
 
